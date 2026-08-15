@@ -1,0 +1,32 @@
+{
+  "name": "demo-webpack",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "tsc --noEmit && webpack --mode production",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@jridgewell/trace-mapping": "^0.3.25",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "css-loader": "^7.1.2",
+    "eslint": "^10.8.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.7.0",
+    "html-webpack-plugin": "^5.6.5",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.65.0",
+    "webpack": "^5.101.4",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

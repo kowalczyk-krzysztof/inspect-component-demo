@@ -1,0 +1,6 @@
+{
+  "name": "inspect-component-demo",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": ["vite", "webpack"]
+}
